@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom CSS Framework</title>
+    <!-- Link to custom CSS compiled from Sass -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Link to Bootstrap CSS for additional components -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">CustomCSS</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#buttons-section">Buttons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#forms-section">Forms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tables-section">Tables</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#modals-section">Modals</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="text-center py-5 bg-primary text-white">
+        <h1>Welcome to Our Custom CSS Framework</h1>
+        <p>A simple framework to style your HTML elements effectively</p>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container py-4">
+        <!-- Buttons Section -->
+        <section id="buttons-section" class="mb-5">
+            <h2>Buttons</h2>
+            <p>Explore various button styles and states:</p>
+            <button class="btn btn-primary" onclick="alert('Primary Button Clicked')">Primary Button</button>
+            <button class="btn btn-secondary" onclick="alert('Secondary Button Clicked')">Secondary Button</button>
+            <button class="btn btn-success" onclick="alert('Success Button Clicked')">Success Button</button>
+            <button class="btn btn-danger" onclick="alert('Danger Button Clicked')">Danger Button</button>
+            <button class="btn btn-warning" onclick="alert('Warning Button Clicked')">Warning Button</button>
+        </section>
+
+        <!-- Forms Section -->
+        <section id="forms-section" class="mb-5">
+            <h2>Forms</h2>
+            <form onsubmit="submitForm(event)">
+                <div class="form-group">
+                    <label for="exampleInputEmail">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail" placeholder="Enter email" required>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword" placeholder="Password" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </section>
+
+        <!-- Tables Section -->
+        <section id="tables-section" class="mb-5">
+            <h2>Tables</h2>
+            <p>Here’s an example of a styled table:</p>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Tom</td>
+                        <td>Mad</td>
+                        <td>@cat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jerry</td>
+                        <td>Joy</td>
+                        <td>@mouse</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Modals Section -->
+        <section id="modals-section" class="mb-5">
+            <h2>Modals</h2>
+            <p>Trigger modals for important interactions:</p>
+            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModal">Launch Modal</button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal Title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            This is an example modal with some content inside.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-4 bg-dark text-white">
+        <p>&copy; 2024 Custom CSS Framework.  css code style.css code of this 
