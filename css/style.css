@@ -1,0 +1,54 @@
+:root {
+    --primary-color: #3498db; /* Primary color */
+    --secondary-color: #2ecc71; /* Secondary color */
+    --font-color: #333; /* Default font color */
+    --font-stack: 'Helvetica Neue', sans-serif;
+    --font-size-base: 16px;
+    --line-height-base: 1.5;
+    --background-light: #f8f9fa; /* Light background color */
+    --primary-hover: #2980b9; /* Hover state for primary */
+    --secondary-hover: #27ae60; /* Hover state for secondary */
+}
+
+
+body {
+    background-image: "C:\Users\User\OneDrive\Desktop\MTM6407-Web-Development-IV-Assignment-Custom-CSS-Framework\scss\jpeg2000-home.jpg";
+    font-family: var(--font-stack);
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-base);
+    color: var(--font-color);
+    background-color: var(--background-light);
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: var(--primary-color);
+}
+
+
+.btn {
+    padding: 10px 20px;
+    font-size: var(--font-size-base);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-hover);
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+   }
