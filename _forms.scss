@@ -1,0 +1,54 @@
+
+
+@import 'variables'; 
+
+.form-group {
+    margin-bottom: 1.5rem;
+
+    
+    label {
+        display: block;
+        margin-bottom: 0.5rem;
+        color: $font-color;
+        font-weight: 500; 
+    }
+
+    
+    input,
+    textarea,
+    select {
+        width: 100%;
+        padding: 0.375rem 0.75rem;
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+        font-size: $font-size-base;
+        line-height: $line-height-base;
+        color: $font-color;
+        background-color: #fff;
+        transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+        &:focus {
+            border-color: $primary-color;
+            outline: none;
+            box-shadow: 0 0 0 0.2rem rgba($primary-color, 0.25);
+        }
+
+        &:disabled {
+            background-color: #e9ecef;
+            opacity: 0.65;
+        }
+    }
+
+    
+    textarea {
+        resize: vertical; 
+    }
+
+    
+    select {
+        appearance: none; 
+        background-image: url(C:\Users\User\OneDrive\Desktop\MTM6407-Web-Development-IV-Assignment-Custom-CSS-Framework\scss\jpeg2000-home.jpg); 
+        background-repeat: no-repeat;
+        background-position: right 0.75rem center;
+    }
+}

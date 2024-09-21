@@ -1,0 +1,90 @@
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn.btn-primary {
+  background-color: #3498db;
+  color: white;
+}
+
+.btn.btn-primary:hover {
+  background-color: #217dbb; 
+}
+
+.btn.btn-secondary {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.btn.btn-secondary:hover {
+  background-color: #25a25a; 
+}
+
+/* Form styles */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  border-color: #3498db; 
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.25);
+}
+
+
+.text-center {
+  text-align: center !important;
+}
+
+.py-5 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem !important;
+}
+
+.mt-4 {
+  margin-top: 1.5rem !important;
+}
+
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #b8d1eb;
+}
+
+
+h1, h2 {
+  color: #3498db; 
+}
+
+

@@ -1,0 +1,20 @@
+@import 'variables'; 
+
+.text-center {
+    text-align: center !important;
+}
+
+
+.py-5 {
+    padding-top: $spacer * 3 !important; 
+    padding-bottom: $spacer * 3 !important;
+}
+
+
+.mb-1 {
+    margin-bottom: $spacer * 0.25 !important; 
+}
+
+.mt-4 {
+    margin-top: $spacer * 1.5 !important;
+}
