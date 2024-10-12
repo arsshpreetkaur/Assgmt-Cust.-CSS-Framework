@@ -1,4 +1,6 @@
 # MTM6407-Web-Development-IV-Assignment-Custom-CSS-Framework
+main.scss: Combined all the Sass partials into a single file and managed the overall structure of the Sass imports.
+main.css: Compiled the Sass files into this CSS file for browser compatibility, ensuring that all styles from the Sass files are reflected in the final CSS.
 Creation of a Custom CSS Framework.
 
 # Custom CSS Framework
@@ -23,20 +25,3 @@ This Custom CSS Framework is designed to provide a unique theme for standard HTM
   - Border
 - Built using Sass and Sass partials for better maintainability.
 
-## Installation
-To install the Custom CSS Framework, follow these steps:
-  - Clone the Repository
-  - Install Node.js and npm
-  - nstall Dependencies
-  - Customize Your Styles
-  - Compile Sass Files
-  - Link the CSS Framework to Your HTML
-  - Use the Framework in Your HTML
-  - Optional - Watch for Changes
-
- # Group Members
-
-  - Arshpreet kaur(Leader)
-  - Jaswinder Singh
-  - Navjot Kaur
-  - Simranpreet Kaur
