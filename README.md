@@ -25,3 +25,11 @@ This Custom CSS Framework is designed to provide a unique theme for standard HTM
 
 ## Installation
 To install the Custom CSS Framework, follow these steps:
+ -Clone the Repository
+ -Install Node.js and npm
+ -nstall Dependencies
+ -Customize Your Styles
+ -Compile Sass Files
+ -Link the CSS Framework to Your HTML
+ -Use the Framework in Your HTML
+ -Optional - Watch for Changes
