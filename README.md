@@ -34,7 +34,8 @@ To install the Custom CSS Framework, follow these steps:
  -Use the Framework in Your HTML
  -Optional - Watch for Changes
 
- ##Group Members:
+ # Group Members
+
  -Arshpreet kaur(Leader)
  -Jaswinder Singh
  -Navjot Kaur
