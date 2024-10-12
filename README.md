@@ -1,12 +1,18 @@
-Assignment-Custom-CSS-Framework
+# MTM6407-Web-Development-IV-Assignment-Custom-CSS-Framework
+ Navjot Kaur
+Tables Section (index.html): Designed the table layout and populated it with sample data. Styled the table using Bootstrap classes and custom styles for responsiveness.
+
+Footer Section (index.html): Created and styled the footer, ensuring it blends well with the design and overall structure.
+
+Bootstrap Integration: Integrated the Bootstrap CDN into the index.html and ensured proper usage throughout the project.
 Creation of a Custom CSS Framework.
 
 # Custom CSS Framework
 
-Description
-The purpose of this Custom CSS Framework is to offer utility classes for common styling and a distinctive look for common HTML elements. Its Sass and Bootstrap construction makes it simple to customize and applies styles consistently to a range of HTML elements.
+## Description
+This Custom CSS Framework is designed to provide a unique theme for standard HTML elements and utility classes for common styling. Built using Sass and Bootstrap, it allows for easy customization and consistent application of styles across various HTML components.
 
-Features
+## Features
 - Custom theme for standard HTML elements, including:
   - Headings
   - Lists
@@ -23,11 +29,9 @@ Features
   - Border
 - Built using Sass and Sass partials for better maintainability.
 
-Installation
+## Installation
 To install the Custom CSS Framework, follow these steps:
- - Download or Clone the Repository
- - Install Dependencies
- - Compile Sass to CSS
- - Link the Compiled CSS in Your HTML
- - Use the Utility Classes and Themes
- - Customize the Framework 
+Clone the repository from GitHub.
+Navigate to the project directory.
+Open the index.html file in your preferred web browser.
+Customize the framework by modifying the relevant CSS and SCSS files or updating the HTML structure to fit your project needs.
